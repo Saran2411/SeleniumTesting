@@ -1,0 +1,535 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 44413753800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.precondition()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "The user gives the invalid username and password",
+        "description": "",
+        "id": "as-a-user--i-want-to-order-the-food;the-user-gives-the-invalid-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 294530200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postcondition()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 51875406900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user enters the bistobites site",
+            "match": {
+              "location": "Bistobites.the_user_enters_the_bistobites_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6437728100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks the account button",
+            "match": {
+              "location": "Bistobites.userClicksTheAccountButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130161400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Give the wrong username and password",
+            "match": {
+              "location": "Bistobites.giveTheWrongUsernameAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2017913200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click the login button",
+            "match": {
+              "location": "Bistobites.clickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28122000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Check the  output",
+            "match": {
+              "location": "Bistobites.checkTheOutput()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 959982300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.precondition()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "The user successfully add the dosa",
+        "description": "",
+        "id": "as-a-user--i-want-to-order-the-food;the-user-successfully-add-the-dosa",
+        "after": [
+          {
+            "result": {
+              "duration": 145429500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postcondition()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8193428500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User launches bistobites url",
+            "match": {
+              "location": "Bistobites.userLaunchesBistobitesUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45080289400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks the Home button",
+            "match": {
+              "location": "Bistobites.userClicksTheHomeButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3959260000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks the dosa",
+            "match": {
+              "location": "Bistobites.userClicksTheDosa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2126750000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks the masala dosa option",
+            "match": {
+              "location": "Bistobites.userClicksTheMasalaDosaOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26367900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Check the available time",
+            "match": {
+              "location": "Bistobites.checkTheAvailableTime()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 873190600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.precondition()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "User fills out the registration form and ignores the confirm password",
+        "description": "",
+        "id": "as-a-user--i-want-to-order-the-food;user-fills-out-the-registration-form-and-ignores-the-confirm-password",
+        "after": [
+          {
+            "result": {
+              "duration": 134538800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postcondition()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 51093954000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters the bistobites site",
+            "match": {
+              "location": "Bistobites.userEntersTheBistobitesSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5108404000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user click the account button",
+            "match": {
+              "location": "Bistobites.userClickTheAccountButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 265896200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Fill out the registration form with dummy data",
+            "match": {
+              "location": "Bistobites.fillOutTheRegistrationFormWithDummyData()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177948400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Click the register button",
+            "match": {
+              "location": "Bistobites.clickTheRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 210500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "get the popup",
+            "match": {
+              "location": "Bistobites.getThePopup()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 876573000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.precondition()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "user search for the Coke can and check the price",
+        "description": "",
+        "id": "as-a-user--i-want-to-order-the-food;user-search-for-the-coke-can-and-check-the-price",
+        "after": [
+          {
+            "result": {
+              "duration": 183417000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postcondition()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 74428473800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user launches bistobites site",
+            "match": {
+              "location": "Bistobites.userLaunchesBistobitesSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 46030100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user clicks the search icon",
+            "match": {
+              "location": "Bistobites.userClicksTheSearchIcon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 156157100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user search the coke and check the dollar",
+            "match": {
+              "location": "Bistobites.userSearchTheCokeAndCheckTheDollar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario4"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 855237200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.precondition()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "user selects the Spanish Omelet",
+        "description": "",
+        "id": "as-a-user--i-want-to-order-the-food;user-selects-the-spanish-omelet",
+        "after": [
+          {
+            "result": {
+              "duration": 183362500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postcondition()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 61467708400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user launches the  site of bistobites",
+            "match": {
+              "location": "Bistobites.userLaunchesTheSiteOfBistobites()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47760700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user click the search icon",
+            "match": {
+              "location": "Bistobites.userClickTheSearchIcon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76132700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "search spanish omelet",
+            "match": {
+              "location": "Bistobites.searchSpanishOmelet()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11694365500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "select the option and check the dollar",
+            "match": {
+              "location": "Bistobites.selectTheOptionAndCheckTheDollar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario5"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 876652600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.precondition()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "user read Our Story",
+        "description": "",
+        "id": "as-a-user--i-want-to-order-the-food;user-read-our-story",
+        "after": [
+          {
+            "result": {
+              "duration": 159440900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postcondition()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62983008000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user visits bistobites site",
+            "match": {
+              "location": "Bistobites.userVisitsBistobitesSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7132452500,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user click our story button",
+            "match": {
+              "location": "Bistobites.userClickOurStoryButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "check spelling mistakes",
+            "match": {
+              "location": "Bistobites.checkSpellingMistakes()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario6"
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I want to Order the food",
+    "description": "",
+    "id": "as-a-user--i-want-to-order-the-food",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Bistobites.feature",
+    "tags": []
+  }
+]

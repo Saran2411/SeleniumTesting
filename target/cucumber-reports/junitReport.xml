@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="444.514331">
+    <testcase classname="As a user, I want to Order the food" name="The user gives the invalid username and password" time="105.200004">
+        <system-out><![CDATA[Given The user enters the bistobites site...................................passed
+When User clicks the account button.........................................passed
+And Give the wrong username and password....................................passed
+And Click the login button..................................................passed
+Then Check the  output......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a user, I want to Order the food" name="The user successfully add the dosa" time="60.491929">
+        <system-out><![CDATA[Given User launches bistobites url..........................................passed
+When User clicks the Home button............................................passed
+And User clicks the dosa....................................................passed
+And User clicks the masala dosa option......................................passed
+Then Check the available time...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a user, I want to Order the food" name="User fills out the registration form and ignores the confirm password" time="57.65453">
+        <system-out><![CDATA[Given user enters the bistobites site.......................................passed
+When user click the account button..........................................passed
+And Fill out the registration form with dummy data..........................passed
+And Click the register button...............................................passed
+Then get the popup..........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a user, I want to Order the food" name="user search for the Coke can and check the price" time="75.691016">
+        <system-out><![CDATA[Given user launches bistobites site.........................................passed
+When user clicks the search icon............................................passed
+Then user search the coke and check the dollar..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a user, I want to Order the food" name="user selects the Spanish Omelet" time="74.325044">
+        <system-out><![CDATA[Given user launches the  site of bistobites.................................passed
+When user click the search icon.............................................passed
+And search spanish omelet...................................................passed
+Then select the option and check the dollar.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a user, I want to Order the food" name="user read Our Story" time="71.151808">
+        <system-out><![CDATA[Given user visits bistobites site...........................................passed
+When user click our story button............................................passed
+Then check spelling mistakes................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
